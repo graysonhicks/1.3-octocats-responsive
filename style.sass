@@ -1,0 +1,22 @@
+@import "variables"
+@import "mixins"
+
+img
+  width: 100%
+
+body
+  @include font
+
+.container
+  max-width: $max-width
+  margin: 0 auto  // use margin not padding because margin is responsive, padding is not
+
+.outer
+  @include outer-border
+
+.inner
+  @include inner-border
+
+h1
+  color: $heading-color
+  text-align: center

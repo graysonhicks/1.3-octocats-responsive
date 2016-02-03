@@ -1,0 +1,28 @@
+img {
+  width: 100%; }
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.outer {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid; }
+
+.inner {
+  border-width: 5px;
+  border-color: blue;
+  border-style: dotted; }
+
+h1 {
+  color: #05015c;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
